@@ -33,6 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        color: Color(ValueColor.BEIGE),
         height: double.infinity,
         width: double.infinity,
         child: Center(
