@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tasks1_flutter/screen/ProfileScreen.dart';
 import 'package:flutter/services.dart';
+import 'package:tasks1_flutter/screen/SplashScreen.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -19,10 +20,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      initialRoute:'/ProfileScreen',
+      initialRoute:'/SplashScreen',
         routes: {
 
           '/ProfileScreen': (context) => ProfileScreen(),
+          '/SplashScreen': (context) => SplashScreen(),
         }
     );
   }
